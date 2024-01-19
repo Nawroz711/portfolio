@@ -1,0 +1,153 @@
+.navbar-brand {
+  color: #fff;
+  background-color: #0cb65f;
+  padding: 4px 17px;
+  border-radius: 4px;
+}
+.navbar-nav ul li a {
+  color: #444 !important;
+  text-decoration: none;
+}
+
+/* home */
+#home h1 {
+  font-weight: bolder;
+  font-size: 3.5vw;
+}
+#home span {
+  color: #0cb65f;
+}
+#home .caption {
+  padding-top: 18vh;
+}
+.caption button {
+  background: #0cb65f;
+  color: #fff;
+}
+
+/* experience */
+#experience {
+  margin-top: 20vh;
+  background-color: #0cb65f;
+  color: #fff;
+  padding: 10vh 0vh;
+}
+#experience h1 {
+  color: #fff;
+  font-weight: bold;
+  font-size: 4vw;
+  padding-bottom: 4vh;
+}
+#experience span {
+  background-color: #fff;
+  color: #0cb65f;
+  border-radius: 8px;
+  padding: 10px 13px;
+}
+#experience h2 {
+  font-size: 6vw;
+  font-weight: bolder;
+}
+
+/* about me */
+#about_me {
+  margin-top: 5vw;
+}
+span {
+  color: #0cb65f;
+}
+#about_me h1 {
+  font-size: 3vw;
+  font-weight: bolder;
+}
+
+/* experience */
+#experience {
+  margin-top: 8vw;
+}
+#experience h1 {
+  font-weight: bolder;
+  font-size: 3vw;
+}
+
+/* my skills */
+#skills {
+  margin-top: 10vh;
+}
+#skills h1 {
+  font-size: 3vw;
+  font-weight: bolder;
+}
+i {
+  color: #0cb65f !important;
+}
+#skills h4 {
+  padding: 0px 4vh;
+}
+
+/* my_works */
+#my_works {
+  margin-top: 15vh;
+}
+#my_works h1 {
+  font-size: 3vw;
+  font-weight: bolder;
+  padding: 7vh 0vh;
+}
+#my_works img {
+  transition: 0.4s ease-in-out;
+  margin: 2vh auto;
+  display: block;
+  border-radius: 7px;
+  text-align: center;
+}
+#my_works img:hover {
+  transform: translateY(-3px)
+}
+@media (max-width: 820px) {
+  #skills h1 {
+    font-size: 12vw;
+  }
+
+  #home .caption {
+    padding-top: 8vh !important;
+    padding-right: 4vh;
+    padding-left: 4vh;
+  }
+  .caption h1 {
+    font-size: 12vw !important;
+  }
+  #projects {
+    margin-top: 3vh;
+  }
+  #projects h1 {
+    font-size: 8vw;
+  }
+  #about_me h1 {
+    font-size: 9vw;
+  }
+  #experience h1 {
+    font-size: 9vw;
+    line-height: 9vh;
+  }
+  #experience h2 {
+    font-size: 19vw;
+  }
+  #my_works h1 {
+    font-size: 9vw;
+  }
+  #my_works img {
+    padding: 0px 5px;
+    /* margin: 0; */
+  }
+}
+@media (width: 1024px) {
+  #home .caption {
+    padding-top: 8vh !important;
+    padding-right: 4vh;
+    padding-left: 4vh;
+  }
+  .caption h1 {
+    font-size: 5vw !important;
+  }
+}
